@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		835258992A906461000A0F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835258982A906461000A0F11 /* AppDelegate.swift */; };
+		8352589B2A906461000A0F11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352589A2A906461000A0F11 /* SceneDelegate.swift */; };
+		8352589D2A906461000A0F11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352589C2A906461000A0F11 /* ViewController.swift */; };
+		835258A02A906461000A0F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8352589E2A906461000A0F11 /* Main.storyboard */; };
+		835258A32A906461000A0F11 /* FintechBreesSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 835258A12A906461000A0F11 /* FintechBreesSample.xcdatamodeld */; };
+		835258A52A906462000A0F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835258A42A906462000A0F11 /* Assets.xcassets */; };
+		835258A82A906462000A0F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835258A62A906462000A0F11 /* LaunchScreen.storyboard */; };
+		835258B32A906462000A0F11 /* FintechBreesSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835258B22A906462000A0F11 /* FintechBreesSampleTests.swift */; };
+		835258BD2A906462000A0F11 /* FintechBreesSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835258BC2A906462000A0F11 /* FintechBreesSampleUITests.swift */; };
+		835258BF2A906462000A0F11 /* FintechBreesSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835258BE2A906462000A0F11 /* FintechBreesSampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		835258AF2A906462000A0F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8352588D2A906461000A0F11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835258942A906461000A0F11;
+			remoteInfo = FintechBreesSample;
+		};
+		835258B92A906462000A0F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8352588D2A906461000A0F11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835258942A906461000A0F11;
+			remoteInfo = FintechBreesSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		835258952A906461000A0F11 /* FintechBreesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FintechBreesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		835258982A906461000A0F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8352589A2A906461000A0F11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8352589C2A906461000A0F11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8352589F2A906461000A0F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		835258A22A906461000A0F11 /* FintechBreesSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FintechBreesSample.xcdatamodel; sourceTree = "<group>"; };
+		835258A42A906462000A0F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835258A72A906462000A0F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835258A92A906462000A0F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835258AE2A906462000A0F11 /* FintechBreesSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintechBreesSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		835258B22A906462000A0F11 /* FintechBreesSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechBreesSampleTests.swift; sourceTree = "<group>"; };
+		835258B82A906462000A0F11 /* FintechBreesSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintechBreesSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		835258BC2A906462000A0F11 /* FintechBreesSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechBreesSampleUITests.swift; sourceTree = "<group>"; };
+		835258BE2A906462000A0F11 /* FintechBreesSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechBreesSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835258922A906461000A0F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835258AB2A906462000A0F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835258B52A906462000A0F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8352588C2A906461000A0F11 = {
+			isa = PBXGroup;
+			children = (
+				835258972A906461000A0F11 /* FintechBreesSample */,
+				835258B12A906462000A0F11 /* FintechBreesSampleTests */,
+				835258BB2A906462000A0F11 /* FintechBreesSampleUITests */,
+				835258962A906461000A0F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835258962A906461000A0F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835258952A906461000A0F11 /* FintechBreesSample.app */,
+				835258AE2A906462000A0F11 /* FintechBreesSampleTests.xctest */,
+				835258B82A906462000A0F11 /* FintechBreesSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835258972A906461000A0F11 /* FintechBreesSample */ = {
+			isa = PBXGroup;
+			children = (
+				835258982A906461000A0F11 /* AppDelegate.swift */,
+				8352589A2A906461000A0F11 /* SceneDelegate.swift */,
+				8352589C2A906461000A0F11 /* ViewController.swift */,
+				8352589E2A906461000A0F11 /* Main.storyboard */,
+				835258A42A906462000A0F11 /* Assets.xcassets */,
+				835258A62A906462000A0F11 /* LaunchScreen.storyboard */,
+				835258A92A906462000A0F11 /* Info.plist */,
+				835258A12A906461000A0F11 /* FintechBreesSample.xcdatamodeld */,
+			);
+			path = FintechBreesSample;
+			sourceTree = "<group>";
+		};
+		835258B12A906462000A0F11 /* FintechBreesSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				835258B22A906462000A0F11 /* FintechBreesSampleTests.swift */,
+			);
+			path = FintechBreesSampleTests;
+			sourceTree = "<group>";
+		};
+		835258BB2A906462000A0F11 /* FintechBreesSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				835258BC2A906462000A0F11 /* FintechBreesSampleUITests.swift */,
+				835258BE2A906462000A0F11 /* FintechBreesSampleUITestsLaunchTests.swift */,
+			);
+			path = FintechBreesSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835258942A906461000A0F11 /* FintechBreesSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835258C22A906462000A0F11 /* Build configuration list for PBXNativeTarget "FintechBreesSample" */;
+			buildPhases = (
+				835258912A906461000A0F11 /* Sources */,
+				835258922A906461000A0F11 /* Frameworks */,
+				835258932A906461000A0F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FintechBreesSample;
+			productName = FintechBreesSample;
+			productReference = 835258952A906461000A0F11 /* FintechBreesSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		835258AD2A906462000A0F11 /* FintechBreesSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835258C52A906462000A0F11 /* Build configuration list for PBXNativeTarget "FintechBreesSampleTests" */;
+			buildPhases = (
+				835258AA2A906462000A0F11 /* Sources */,
+				835258AB2A906462000A0F11 /* Frameworks */,
+				835258AC2A906462000A0F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835258B02A906462000A0F11 /* PBXTargetDependency */,
+			);
+			name = FintechBreesSampleTests;
+			productName = FintechBreesSampleTests;
+			productReference = 835258AE2A906462000A0F11 /* FintechBreesSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		835258B72A906462000A0F11 /* FintechBreesSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835258C82A906462000A0F11 /* Build configuration list for PBXNativeTarget "FintechBreesSampleUITests" */;
+			buildPhases = (
+				835258B42A906462000A0F11 /* Sources */,
+				835258B52A906462000A0F11 /* Frameworks */,
+				835258B62A906462000A0F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835258BA2A906462000A0F11 /* PBXTargetDependency */,
+			);
+			name = FintechBreesSampleUITests;
+			productName = FintechBreesSampleUITests;
+			productReference = 835258B82A906462000A0F11 /* FintechBreesSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8352588D2A906461000A0F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					835258942A906461000A0F11 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					835258AD2A906462000A0F11 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 835258942A906461000A0F11;
+					};
+					835258B72A906462000A0F11 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 835258942A906461000A0F11;
+					};
+				};
+			};
+			buildConfigurationList = 835258902A906461000A0F11 /* Build configuration list for PBXProject "FintechBreesSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8352588C2A906461000A0F11;
+			productRefGroup = 835258962A906461000A0F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835258942A906461000A0F11 /* FintechBreesSample */,
+				835258AD2A906462000A0F11 /* FintechBreesSampleTests */,
+				835258B72A906462000A0F11 /* FintechBreesSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835258932A906461000A0F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835258A82A906462000A0F11 /* LaunchScreen.storyboard in Resources */,
+				835258A52A906462000A0F11 /* Assets.xcassets in Resources */,
+				835258A02A906461000A0F11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835258AC2A906462000A0F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835258B62A906462000A0F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835258912A906461000A0F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8352589D2A906461000A0F11 /* ViewController.swift in Sources */,
+				835258992A906461000A0F11 /* AppDelegate.swift in Sources */,
+				8352589B2A906461000A0F11 /* SceneDelegate.swift in Sources */,
+				835258A32A906461000A0F11 /* FintechBreesSample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835258AA2A906462000A0F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835258B32A906462000A0F11 /* FintechBreesSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835258B42A906462000A0F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835258BF2A906462000A0F11 /* FintechBreesSampleUITestsLaunchTests.swift in Sources */,
+				835258BD2A906462000A0F11 /* FintechBreesSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		835258B02A906462000A0F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835258942A906461000A0F11 /* FintechBreesSample */;
+			targetProxy = 835258AF2A906462000A0F11 /* PBXContainerItemProxy */;
+		};
+		835258BA2A906462000A0F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835258942A906461000A0F11 /* FintechBreesSample */;
+			targetProxy = 835258B92A906462000A0F11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8352589E2A906461000A0F11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8352589F2A906461000A0F11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		835258A62A906462000A0F11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835258A72A906462000A0F11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		835258C02A906462000A0F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		835258C12A906462000A0F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		835258C32A906462000A0F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9NUV485VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FintechBreesSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcundiff.FintechBreesSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		835258C42A906462000A0F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9NUV485VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FintechBreesSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcundiff.FintechBreesSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		835258C62A906462000A0F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9NUV485VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcundiff.FintechBreesSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FintechBreesSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FintechBreesSample";
+			};
+			name = Debug;
+		};
+		835258C72A906462000A0F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9NUV485VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcundiff.FintechBreesSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FintechBreesSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FintechBreesSample";
+			};
+			name = Release;
+		};
+		835258C92A906462000A0F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9NUV485VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcundiff.FintechBreesSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FintechBreesSample;
+			};
+			name = Debug;
+		};
+		835258CA2A906462000A0F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9NUV485VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcundiff.FintechBreesSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FintechBreesSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835258902A906461000A0F11 /* Build configuration list for PBXProject "FintechBreesSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835258C02A906462000A0F11 /* Debug */,
+				835258C12A906462000A0F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835258C22A906462000A0F11 /* Build configuration list for PBXNativeTarget "FintechBreesSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835258C32A906462000A0F11 /* Debug */,
+				835258C42A906462000A0F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835258C52A906462000A0F11 /* Build configuration list for PBXNativeTarget "FintechBreesSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835258C62A906462000A0F11 /* Debug */,
+				835258C72A906462000A0F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835258C82A906462000A0F11 /* Build configuration list for PBXNativeTarget "FintechBreesSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835258C92A906462000A0F11 /* Debug */,
+				835258CA2A906462000A0F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		835258A12A906461000A0F11 /* FintechBreesSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				835258A22A906461000A0F11 /* FintechBreesSample.xcdatamodel */,
+			);
+			currentVersion = 835258A22A906461000A0F11 /* FintechBreesSample.xcdatamodel */;
+			path = FintechBreesSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8352588D2A906461000A0F11 /* Project object */;
+}
