@@ -51,6 +51,7 @@
 		835258B82A906462000A0F11 /* FintechBreesSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintechBreesSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		835258BC2A906462000A0F11 /* FintechBreesSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechBreesSampleUITests.swift; sourceTree = "<group>"; };
 		835258BE2A906462000A0F11 /* FintechBreesSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechBreesSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		835258CB2A92F767000A0F11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		8352588C2A906461000A0F11 = {
 			isa = PBXGroup;
 			children = (
+				835258CB2A92F767000A0F11 /* README.md */,
 				835258972A906461000A0F11 /* FintechBreesSample */,
 				835258B12A906462000A0F11 /* FintechBreesSampleTests */,
 				835258BB2A906462000A0F11 /* FintechBreesSampleUITests */,
